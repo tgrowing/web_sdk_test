@@ -96,8 +96,8 @@ const DEFAULT_PARAM_OBJ = {
 export default {
   data() {
     return {
-      appKey: 'KPY1CEBX2VU14O0B',
-      reportUrl: 'http://202.105.101.18:8888/yypt/tgop/report/logserver/analytics/upload?tp=js',
+      appKey: '',
+      reportUrl: '',
       eventCode: '',
       params: [{ ...DEFAULT_PARAM_OBJ }],
       webId: '',
@@ -128,7 +128,7 @@ export default {
         openid: this.openId,
         sessionDuration: 60 * 1000,
         jsBridge: true,
-        weappAppkey: 'KPY1D37V2GU252VW',
+        weappAppkey: '',
         onReportSuccess: (e) => {
           console.log('onReportSuccess : ' + e);
         },
