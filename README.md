@@ -160,7 +160,7 @@ beacon.onUserAction('testDemoButtonClick', {
 
 #### 上报事件查看
 
-![image.png](https://tencent-growth-platform-1251316161.cos.ap-beijing.myqcloud.com/sdk/images/web-sdk-demo/step7.png)
+![image.png](https://tencent-growth-platform-1251316161.cos.ap-beijing.myqcloud.com/sdk/images/web-sdk-demo/step13.png)
 
 ### 本地启动demo操作流程
 
