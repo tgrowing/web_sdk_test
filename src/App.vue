@@ -101,13 +101,13 @@ export default {
       eventCode: '',
       params: [{ ...DEFAULT_PARAM_OBJ }],
       webId: '',
-      openId: '',
+      openId: 'openid',
       commonParams: {},
       beacon: {},
       ua: '',
       env: {},
       strategy: '',
-      activeName: ['1', '2'],
+      activeName: ['4', '5'],
       events: [],
       inited: false,
       activeIndex: 'A',
@@ -121,11 +121,11 @@ export default {
   methods: {
     setSdk() {
       this.beacon = new window.BeaconAction({
-        appkey: this.appKey,
-        channelID: 'web-sdk-new',
-        reportUrl: this.reportUrl,
+        appkey: this.appKey, // 必填
+        reportUrl: this.reportUrl, // 必填
         delay: 1000,
         openid: this.openId,
+        channelID: 'web-sdk-new',
         sessionDuration: 60 * 1000,
         jsBridge: true,
         weappAppkey: '',
