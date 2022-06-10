@@ -6,7 +6,7 @@
  * @LastEditTime: 2022-01-17 16:28:27
  */
 module.exports = {
-  publicPath: process.env.NODE_ENV === "development" ? "/" : "/sdk/demo/dist",
+  publicPath: process.env.NODE_ENV === "development" ? "/" : "/sdk/web-sdk-demo/dist",
   pages: {
     index: {
       // page 的入口
